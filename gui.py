@@ -38,7 +38,7 @@ def runProcess(minArea, maxArea):
 class App(QWidget):
 	def __init__(self):
 		super().__init__()
-		self.title = 'PyQt5 button - pythonspot.com'
+		self.title = 'Count Contours' # Gui base on code from pythonspot.com
 		self.left = 100
 		self.top = 100
 		self.width = 800
